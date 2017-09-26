@@ -1,1 +1,76 @@
 
+\begin{filecontents}{leer.eps}
+gsave
+72 31 moveto
+72 342 lineto
+601 342 lineto
+601 31 lineto
+72 31 lineto
+showpage
+grestore
+\end{filecontents}
+\documentclass[epj]{svjour}
+\usepackage{graphics}
+\begin{document}
+\title{sensitivity analysis for Pandax-III 
+\subtitle{Do you have a subtitle?\\ If so, write it here}
+\author{First author\inst{1} \and Second author\inst{2}% etc
+\thanks{\emph{Present address:} Insert the address here if needed}%
+}                     % Do not remove
+%
+\offprints{}          % Insert a name or remove this line
+%
+\institute{INPAC \and SJTU}
+\date{Received: date / Revised version: date}
+\abstract{
+Insert your abstract here.
+\PACS{
+      {PACS-key}{discribing text of that key}   \and
+      {PACS-key}{discribing text of that key}
+     } % end of PACS codes
+} %end of abstract
+\maketitle
+\section{Introduction}
+\label{intro}
+give introduction to the neutrio--> constrain to mass and define whether it is majorana -> introduction to pandax-IIIexperiment
+\section{statistical modelling}
+\label{sec:1}
+\subsection{physics model}
+\label{sec:2}
+equation involving half life, detector parameters and signal
+\subsection{discovery sensitivity}
+\label{sec:3}
+for this sector I can compare the different Baysian method prior pdf(s) convergence speed(s) with directlycalculation of the likelyhood. the sector and 2.3 should include different background model so that the influence ofdifferent isotopes can be discussed (e.g. Bi214 )
+\subsection{exclusion sensitivity}
+\label{sec:4}
+for this sector I can discuss the Baysian prior pdf convergence speed. however, the likelyhood ratio test does notapply well because one parameter of H0 lies on the boundary of the parameter space of H1.The test still work butis not garanteed the most powerful. Maybe I can work out some solution.
+\section{result }
+\label{sec:5}
+firstly discussing the parameter of detector, this part should involve MC result of the detector.then give the result ofboth the discovery and exclusion sensitivity
+\section{discussion}
+\label{sec:6}
+discussion of the Pandax-III detector ability and expectations.
+\section{acknowledgement}
+\label{sec:7}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
